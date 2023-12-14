@@ -25,7 +25,9 @@ def spawn_new_fruit():
     while True:
         fruit = [pyxel.rndi(0, 59), pyxel.rndi(0, 59)]
         if fruit not in snake_geometry and fruit not in rocks:
-            break
+            break 
+
+# nouveau commentaire
 
 spawn_new_fruit()
 
